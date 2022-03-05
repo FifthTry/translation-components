@@ -1,0 +1,8 @@
+-- import: fpm
+
+-- fpm.package: fifthtry.github.io/translation-components
+zip: github.com/fifthtry/translation-components/archive/refs/heads/main.zip
+
+-- fpm.dependency: fifthtry.github.io/code-block
+
+-- fpm.auto-import: fifthtry.github.io/code-block as cb
