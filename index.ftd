@@ -2,7 +2,7 @@
 
 
 
--- header-sticky-title uptodate: Upto date
+-- header-sticky-title uptodate: $fpm.ui.upto-date
 icon: true
 light-icon-path: -/fifthtry.github.-/iofifthtry.github.io/translation-components/static/translation-icons/light/large/translations-success.png
 dark-icon-path: -/fifthtry.github.io/translation-components/static/translation-icons/dark/large/translations-sucess.png
@@ -11,7 +11,7 @@ dark-icon-path: -/fifthtry.github.io/translation-components/static/translation-i
 
 
 
--- header-sticky-title missing: Missing
+-- header-sticky-title missing: $fpm.ui.missing
 icon: true
 light-icon-path: -/fifthtry.github.io/translation-components/static/translation-icons/light/large/translations-missing.png
 dark-icon-path: -/fifthtry.github.io/translation-components/static/translation-icons/dark/large/translations-missing.png
@@ -23,7 +23,7 @@ $fpm.ui.translation-not-available
 
 
 
--- header-sticky-title nevermarked: Never marked
+-- header-sticky-title nevermarked: $fpm.ui.never-marked
 icon: true
 button-text-main: $fpm.ui.show-unapproved-version
 button-text-fallback: $fpm.ui.show-latest-version
@@ -41,7 +41,7 @@ $fpm.ui.unapproved-heading
 
 
 
--- header-sticky-title outdated: Outdated
+-- header-sticky-title outdated: $fpm.ui.out-dated
 icon: true
 button-text-main: $fpm.ui.show-latest-version
 button-text-fallback: $fpm.ui.show-outdated-version
