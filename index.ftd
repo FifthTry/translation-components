@@ -1205,7 +1205,22 @@ font: apple-system
 
 
 
+-- ftd.column translation-banner:
+width: fill
+height: fill
+if: $fpm.translation-status is not null
 
+--- uptodate:
+if: $fpm.translation-status == UptoDate
+
+--- missing:
+if: $fpm.translation-status == Missing
+
+--- nevermarked:
+if: $fpm.translation-status == NeverMarked
+
+--- outdated:
+if: $fpm.translation-status == Outdated
 
 
 
