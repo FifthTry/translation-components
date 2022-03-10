@@ -2,7 +2,7 @@
 
 
 
--- header-sticky-title uptodate: $fpm.ui.upto-date
+-- header-sticky-title uptodate: $fpm.i18n.upto-date
 icon: true
 light-icon-path: -/fifthtry.github.-/iofifthtry.github.io/translation-components/static/translation-icons/light/large/translations-success.png
 dark-icon-path: -/fifthtry.github.io/translation-components/static/translation-icons/dark/large/translations-sucess.png
@@ -11,27 +11,27 @@ dark-icon-path: -/fifthtry.github.io/translation-components/static/translation-i
 
 
 
--- header-sticky-title missing: $fpm.ui.missing
+-- header-sticky-title missing: $fpm.i18n.missing
 icon: true
 light-icon-path: -/fifthtry.github.io/translation-components/static/translation-icons/light/large/translations-missing.png
 dark-icon-path: -/fifthtry.github.io/translation-components/static/translation-icons/dark/large/translations-missing.png
 
 
-$fpm.ui.translation-not-available
+$fpm.i18n.translation-not-available
 
 
 
 
 
--- header-sticky-title nevermarked: $fpm.ui.never-marked
+-- header-sticky-title nevermarked: $fpm.i18n.never-marked
 icon: true
-button-text-main: $fpm.ui.show-unapproved-version
-button-text-fallback: $fpm.ui.show-latest-version
+button-text-main: $fpm.i18n.show-unapproved-version
+button-text-fallback: $fpm.i18n.show-latest-version
 light-icon-path: -/fifthtry.github.io/translation-components/static/translation-icons/light/large/translations-info.png
 dark-icon-path: -/fifthtry.github.io/translation-components/static/translation-icons/dark/large/translations-info.png
 
 
-$fpm.ui.unapproved-heading
+$fpm.i18n.unapproved-heading
 
 
 
@@ -41,16 +41,16 @@ $fpm.ui.unapproved-heading
 
 
 
--- header-sticky-title outdated: $fpm.ui.out-dated
+-- header-sticky-title outdated: $fpm.i18n.out-dated
 icon: true
-button-text-main: $fpm.ui.show-latest-version
-button-text-fallback: $fpm.ui.show-outdated-version
+button-text-main: $fpm.i18n.show-latest-version
+button-text-fallback: $fpm.i18n.show-outdated-version
 link-text: View changes
-green-title: $fpm.ui.out-dated-heading
+green-title: $fpm.i18n.out-dated-heading
 light-icon-path: -/fifthtry.github.io/translation-components/static/translation-icons/light/large/translations-title-default.png
 dark-icon-path: -/fifthtry.github.io/translation-components/static/translation-icons/dark/large/translations-title-default.png
 
-$fpm.ui.out-dated-body
+$fpm.i18n.out-dated-body
 
 --- code-block: The following changes has been made in English edition since last modification
 if: $fpm.translation-diff-open
@@ -850,7 +850,7 @@ optional string group-type:
 if: $fpm.missing-files is not empty
 
 --- icon-title:
-title: $fpm.ui.missing
+title: $fpm.i18n.missing
 title-color: #FA6C6C
 icon: true
 icon-path-light: -/fifthtry.github.io/translation-components/static/translation-icons/light/35x26/translations-missing.png
@@ -895,7 +895,7 @@ if: $fpm.never-marked-files is not empty
 
 --- icon-title:
 /if: $group-type 'nevermarked'
-title: $fpm.ui.never-marked
+title: $fpm.i18n.never-marked
 title-color: #F48D0C
 icon: true
 icon-path-light: -/fifthtry.github.io/translation-components/static/translation-icons/light/35x26/translations-info.png
@@ -937,7 +937,7 @@ if: $fpm.outdated-files is not empty
 
 --- icon-title:
 /if: $group-type 'outdated'
-title: $fpm.ui.out-dated
+title: $fpm.i18n.out-dated
 title-color: #FAD345
 icon: true
 icon-path-light: -/fifthtry.github.io/translation-components/static/translation-icons/light/35x26/translations-time.png
@@ -981,7 +981,7 @@ if: $fpm.upto-date-files is not empty
 
 --- icon-title:
 /if: $group-type 'uptodate'
-title: $fpm.ui.upto-date
+title: $fpm.i18n.upto-date
 title-color: #58C802
 icon: true
 icon-path-light: -/fifthtry.github.io/translation-components/static/translation-icons/light/35x26/translations-success.png
